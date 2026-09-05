@@ -1,0 +1,25 @@
+TASK 5 RESULTS SUMMARY
+======================
+
+Decision Tree (full depth) test accuracy: 0.9854
+Best max_depth (least overfitting): 9
+Decision Tree (max_depth=9) test accuracy: 0.9854
+Random Forest test accuracy: 1.0000
+
+Feature importances (Random Forest):
+cp          0.144796
+thalach     0.118097
+ca          0.110965
+oldpeak     0.105590
+thal        0.101825
+age         0.091826
+chol        0.076579
+exang       0.074189
+trestbps    0.071178
+slope       0.045234
+sex         0.029885
+restecg     0.019166
+fbs         0.010670
+
+5-Fold CV Decision Tree: mean=0.9980, std=0.0039
+5-Fold CV Random Forest: mean=0.9971, std=0.0059
